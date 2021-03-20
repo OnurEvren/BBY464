@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <tvshow>
+        <title>Breaking Bad</title>
+        <creator>Vince Gilligan</creator>
+        <seasons>5</seasons>
+        <category>Crime,Drama,Thriller</category>
+        <summary>A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.</summary>
+        <url>https://www.imdb.com/title/tt0903747/</url>        
+    </tvshow>
+
+    <tvshow>
+        <title>Game Of Thrones</title>
+        <creator>David Benioff,D.B. Weiss</creator>
+        <seasons>8</seasons>
+        <category>Action,Adventure,Drama</category>
+        <summary>Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.</summary>
+        <url>https://www.imdb.com/title/tt0944947/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>The Office</title>
+        <creator>Greg Daniels,Ricky Gervais,Stephen Merchant</creator>
+        <seasons>9</seasons>
+        <category>Comedy</category>
+        <summary>A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.</summary>
+        <url>https://www.imdb.com/title/tt0386676/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Chernobyl</title>
+        <creator>Craig Mazin</creator>
+        <seasons>1</seasons>
+        <category>Drama,History,Thriller</category>
+        <summary>In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.</summary>
+        <url>https://www.imdb.com/title/tt7366338/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Vikings</title>
+        <creator>Michael Hirst</creator>
+        <seasons>6</seasons>
+        <category>Action,Adventure,Drama</category>
+        <summary>Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.</summary>
+        <url>https://www.imdb.com/title/tt2306299/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>How I Met Your Mother</title>
+        <creator>Carter Bays,Craig Thomas</creator>
+        <seasons>9</seasons>
+        <category>Comedy, Romance </category>
+        <summary>A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.</summary>
+        <url>https://www.imdb.com/title/tt1740299/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Friends</title>
+        <creator>David Crane,Marta Kauffman</creator>
+        <seasons>10</seasons>
+        <category>Comedy,Romance</category>
+        <summary>Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.</summary>
+        <url>https://www.imdb.com/title/tt0108778/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>The Mandalorian</title>
+        <creator>Jon Favreau</creator>
+        <seasons>3</seasons>
+        <category>Action,Adventure,Sci-Fi</category>
+        <summary>The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.</summary>
+        <url>https://www.imdb.com/title/tt8111088/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Peaky Blinders</title>
+        <creator>Steven Knight</creator>
+        <seasons>6</seasons>
+        <category>Crime,Drama</category>
+        <summary>A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</summary>
+        <url>https://www.imdb.com/title/tt2442560/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>The Crown</title>
+        <creator>Peter Morgan</creator>
+        <seasons>6</seasons>
+        <category>Biography,Drama,History</category>
+        <summary>Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.</summary>
+        <url>https://www.imdb.com/title/tt4786824/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>The Man in the High Castle</title>
+        <creator>Frank Spotnitz</creator>
+        <seasons>4</seasons>
+        <category>Drama,Sci-Fi,Thriller</category>
+        <summary>In a dystopian America dominated by Nazi Germany and Imperial Japan, a young woman discovers a mysterious film that may hold the key to toppling the totalitarian regimes.</summary>
+        <url>https://www.imdb.com/title/tt1740299/?ref_=nv_sr_srsg_0</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Better Call Saul</title>
+        <creator>Vince Gilligan,Peter Gould</creator>
+        <seasons>6</seasons>
+        <category>Crime,Drama</category>
+        <summary>The trials and tribulations of criminal lawyer Jimmy McGill in the time before he established his strip-mall law office in Albuquerque, New Mexico.</summary>
+        <url>https://www.imdb.com/title/tt3032476/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Stranger Things</title>
+        <creator>Matt Duffer,Ross Duffer</creator>
+        <seasons>4</seasons>
+        <category>Drama,Fantasy,Horror</category>
+        <summary>When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.</summary>
+        <url>https://www.imdb.com/title/tt4574334/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Shameless</title>
+        <creator>John Wells,Paul Abbott</creator>
+        <seasons>11</seasons>
+        <category>Comedy,Drama</category>
+        <summary>A scrappy, feisty, fiercely loyal Chicago family makes no apologies.</summary>
+        <url>https://www.imdb.com/title/tt1586680/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>The Queen's Gambit</title>
+        <creator>Scott Frank,Allan Scott</creator>
+        <seasons>1</seasons>
+        <category>Drama,Sport</category>
+        <summary>Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.</summary>
+        <url>https://www.imdb.com/title/tt10048342/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Doctor Who</title>
+        <creator>Sydney Newman</creator>
+        <seasons>13</seasons>
+        <category>Adventure,Drama,Family</category>
+        <summary>The further adventures in time and space of the alien adventurer known as the Doctor and their companions from planet Earth.</summary>
+        <url>https://www.imdb.com/title/tt0436992/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Lost</title>
+        <creator>J.J. Abrams,Jeffrey Lieber,Damon Lindelof</creator>
+        <seasons> </seasons>
+        <category>Adventure,Drama,Fantasy</category>
+        <summary>The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.</summary>
+        <url>https://www.imdb.com/title/tt0411008/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Fargo</title>
+        <creator>Noah Hawley</creator>
+        <seasons>4</seasons>
+        <category>Crime,Drama,Thriller</category>
+        <summary>Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.</summary>
+        <url>https://www.imdb.com/title/tt2802850/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>South Park</title>
+        <creator>Trey Parker,Matt Stone,Brian Graden</creator>
+        <seasons>24</seasons>
+        <category>Animation,Comedy</category>
+        <summary>Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.</summary>
+        <url>https://www.imdb.com/title/tt0121955/</url>        
+    </tvshow>
+    
+    <tvshow>
+        <title>Sons of Anarchy</title>
+        <creator>Kurt Sutter</creator>
+        <seasons>7</seasons>
+        <category>Crime,Drama,Thriller</category>
+        <summary>A biker struggles to balance being a father and being involved in an outlaw motorcycle club.</summary>
+        <url>https://www.imdb.com/title/tt1124373/</url>        
+    </tvshow>
+
+</catalog>
