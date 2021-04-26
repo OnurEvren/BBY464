@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:fceff714-e947-4bca-a41a-8cc9adcdc830#"
+     xml:base="urn:webprotege:ontology:fceff714-e947-4bca-a41a-8cc9adcdc830"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:fceff714-e947-4bca-a41a-8cc9adcdc830"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R69msbdP1Ei9R2CJQvXkfw -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R69msbdP1Ei9R2CJQvXkfw">
+        <rdfs:label xml:lang="en">are related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R86BcvlK0jdKmuuESrBdtvZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R86BcvlK0jdKmuuESrBdtvZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">is a body style of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">is a model of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem">
+        <rdfs:label xml:lang="en">has body style</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">is a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUkL2ll1awVMXYpM9tzgbI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RUkL2ll1awVMXYpM9tzgbI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDAcHTkzFzbmkiUxyGSajWD"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDAcHTkzFzbmkiUxyGSajWD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Body Style</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Car_body_style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YoINP9bX1r5VVEAQn8hMT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7YoINP9bX1r5VVEAQn8hMT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Coupe</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Coupe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Opel Automobile GmbH usually shortened to Opel, is a German automobile manufacturer which is a subsidiary of Stellantis since 16 January 2021. It was owned by General Motors from 1929 until 2017 and the PSA Group, a predecessor of Stellantis, from 2017 until 2021. Opel vehicles are sold in the United Kingdom, Isle of Man and Channel Islands under the Vauxhall brand. Some Opel vehicles were badge-engineered in Australia under the Holden brand until 2020 and in North America and China under the Buick, Saturn, and Cadillac brands.</dc:description>
+        <dc:title xml:lang="en">Opel</dc:title>
+        <rdfs:label xml:lang="en">Opel</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Opel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aLhIpO9PDuULlC4VA9ml6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7aLhIpO9PDuULlC4VA9ml6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pickup</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Pickup_truck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jdCI7ARnXGDRjucnb1lGa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jdCI7ARnXGDRjucnb1lGa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPYPnat6NmcCWqAeWCUyaD"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RPYPnat6NmcCWqAeWCUyaD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Car</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Hatchback</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Hatchback"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8l5OXMUHCTr8E2JTAOST9j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8l5OXMUHCTr8E2JTAOST9j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBfnJdYBe3YBnJpq0DGfmMP"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBfnJdYBe3YBnJpq0DGfmMP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Seat</dc:creator>
+        <dc:date xml:lang="en">1998</dc:date>
+        <dc:description xml:lang="en">The SEAT León also spelled Leon outside of Spain is a hatchback compact car built by the Spanish car manufacturer SEAT since October 1998.</dc:description>
+        <dc:title xml:lang="en">Seat Leon</dc:title>
+        <dc:type xml:lang="en">Compact Car</dc:type>
+        <rdfs:label xml:lang="en">Leon</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/SEAT_Le%C3%B3n"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8yMRm5kl1NErSPedr0kjXI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8yMRm5kl1NErSPedr0kjXI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBfnJdYBe3YBnJpq0DGfmMP"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBfnJdYBe3YBnJpq0DGfmMP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Seat</dc:creator>
+        <dc:date xml:lang="en">1984</dc:date>
+        <dc:description xml:lang="en">The SEAT Ibiza is a supermini car manufactured by Spanish car manufacturer SEAT since 1984. It is SEAT&apos;s best-selling car. The Ibiza is named after the Spanish island of Ibiza, and it is the second SEAT model to be named after a Spanish city, after the SEAT Ronda. It was introduced at the 1984 Paris Motor Show as the first car developed by SEAT as an independent company, though it was designed by SEAT in collaboration with well-known firms such as Italdesign, Karmann and Porsche.</dc:description>
+        <dc:title xml:lang="en">Seat Ibiza</dc:title>
+        <dc:type xml:lang="en">Supermini (B)</dc:type>
+        <rdfs:label xml:lang="en">Ibiza</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/SEAT_Ibiza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Station Wagon</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Station_wagon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Škoda Auto a.s. is a Czech automobile manufacturer founded in 1895 as Laurin &amp; Klement and headquartered in Mladá Boleslav, Czech Republic.</dc:description>
+        <dc:title xml:lang="en">Skoda</dc:title>
+        <rdfs:label xml:lang="en">Skoda</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/%C5%A0koda_Auto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lVNE4inRy3Xkm9z0VGCtK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lVNE4inRy3Xkm9z0VGCtK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Opel</dc:creator>
+        <dc:date xml:lang="en">2008</dc:date>
+        <dc:description xml:lang="en">The Opel Insignia is a mid-size/large family car engineered and produced by the German car manufacturer Opel, currently in its second generation. Production of the Insignia started in August 2008, replacing the Vectra and Signum. The vehicle is sold under the Vauxhall marque in the United Kingdom as the Vauxhall Insignia, by Holden in Australia as the Holden Commodore since 2018, and sold in North America and China under the Buick marque as the Buick Regal since 2011.</dc:description>
+        <dc:title xml:lang="en">Opel Insignia</dc:title>
+        <dc:type xml:lang="en">D-Segment</dc:type>
+        <rdfs:label xml:lang="en">Insignia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Opel_Insignia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tCHk2yIORcFDx2tppDHRd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9tCHk2yIORcFDx2tppDHRd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Opel</dc:creator>
+        <dc:date xml:lang="en">1982</dc:date>
+        <dc:description xml:lang="en">The Opel Corsa is a supermini car engineered and produced by the German automobile manufacturer Opel since 1982. It has been sold under a variety of other brands (most notably Vauxhall, Chevrolet, and Holden) and also spawned various other derivatives.</dc:description>
+        <dc:title xml:lang="en">Opel Corsa</dc:title>
+        <dc:type xml:lang="en">Supermini (B)</dc:type>
+        <rdfs:label xml:lang="en">Corsa</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Opel_Corsa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQqXqSrWtL2WD4VHnDJu0E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBQqXqSrWtL2WD4VHnDJu0E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skoda</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Škoda Superb is a large family car that has been produced by the Czech car manufacturer Škoda Auto since 2001.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skoda SuperB</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-Segment</dc:type>
+        <rdfs:label xml:lang="en">SuperB</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/%C5%A0koda_Superb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfnJdYBe3YBnJpq0DGfmMP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBfnJdYBe3YBnJpq0DGfmMP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">SEAT, S.A. (Sociedad Española de Automóviles de Turismo) is a Spanish automobile manufacturer with its head office in Martorell, Spain.[6] It was founded on May 9, 1950, by the Instituto Nacional de Industria (INI), a Spanish state-owned industrial holding company. It quickly became the largest supplier of cars in Spain. In 1986, after 36 years being publicly listed as an independent automaker, the Spanish government sold SEAT to the Volkswagen Group of which it remains a wholly owned subsidiary.[7]</dc:description>
+        <dc:title xml:lang="en">Seat</dc:title>
+        <rdfs:label xml:lang="en">Seat</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/SEAT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBj7JvRwBQfgLAInMVJBuTB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBj7JvRwBQfgLAInMVJBuTB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Skoda</dc:creator>
+        <dc:date xml:lang="en">1999</dc:date>
+        <dc:description xml:lang="en">The Škoda Fabia is a supermini car produced by Czech manufacturer Škoda Auto since 1999. It is the successor of the Škoda Felicia, which was discontinued in 2001. The Fabia was available in hatchback, estate (named Fabia Combi) and saloon (named Fabia Sedan) body styles at launch, and since 2007, the second generation is offered in hatchback and estate versions. The third generation Fabia was launched in 2015.</dc:description>
+        <dc:title xml:lang="en">Skoda Fabia</dc:title>
+        <dc:type xml:lang="en">B-Segment</dc:type>
+        <rdfs:label xml:lang="en">Fabia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/%C5%A0koda_Fabia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jdCI7ARnXGDRjucnb1lGa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R69msbdP1Ei9R2CJQvXkfw"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jdCI7ARnXGDRjucnb1lGa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Car Brands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBvExOOZfx17Jj721hXLfVF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">The Ford Motor Company, commonly known as Ford, is an American multinational automaker that has its main headquarters in Dearborn, Michigan, a suburb of Detroit. It was founded by Henry Ford and incorporated on June 16, 1903.</dc:description>
+        <dc:title xml:lang="en">Ford</dc:title>
+        <rdfs:label xml:lang="en">Ford</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Ford_Motor_Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAcHTkzFzbmkiUxyGSajWD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAcHTkzFzbmkiUxyGSajWD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jdCI7ARnXGDRjucnb1lGa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUkL2ll1awVMXYpM9tzgbI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jdCI7ARnXGDRjucnb1lGa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Physical Appereance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWSt8yEQJo9bj2ytCb2mz0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWSt8yEQJo9bj2ytCb2mz0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Ford Motor Company</dc:creator>
+        <dc:date xml:lang="en">1998</dc:date>
+        <dc:description xml:lang="en">The Ford Focus is a compact car (C-segment in Europe) manufactured by the Ford Motor Company and created under Alexander Trotman&apos;s Ford 2000 plan, which aimed to globalize model development and sell one compact vehicle worldwide. The original Focus was primarily designed by Ford of Europe&apos;s German and British teams.</dc:description>
+        <dc:title xml:lang="en">Ford Focus</dc:title>
+        <dc:type xml:lang="en">Compact Car</dc:type>
+        <rdfs:label xml:lang="en">Focus</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Ford_Focus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxymL3nkQbpVWExSLonFQF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxymL3nkQbpVWExSLonFQF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9QzAE4JiEPnYRTubTMDoz1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Skoda</dc:creator>
+        <dc:date xml:lang="en">1996</dc:date>
+        <dc:description xml:lang="en">The Škoda Octavia is a small family car produced by the Czech car manufacturer Škoda Auto since the end of 1996. It shares its name with an earlier model produced between 1959 and 1971. Four generations of the modern-era Octavia model have been introduced to date, delivered with five-door liftback saloon or five-door estate styles only. The car is front engined, both front- or four-wheel drive are offered. Around five million units have been sold in its two decades of presence on the market. The Octavia is Škoda&apos;s most popular model; about 40% of all newly manufactured Škoda cars are Octavias.</dc:description>
+        <dc:title xml:lang="en">Skoda Octavia</dc:title>
+        <dc:type xml:lang="en">C-Segment</dc:type>
+        <rdfs:label xml:lang="en">Octavia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Skoda_Octavia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMSljNVikmTHE91U1GZjs9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMSljNVikmTHE91U1GZjs9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Ford Motor Company</dc:creator>
+        <dc:date xml:lang="en">1976</dc:date>
+        <dc:description xml:lang="en">The Ford Fiesta is a supermini marketed by Ford since 1976 over seven generations. It has been manufactured in the United Kingdom, Germany, Spain, Australia, Brazil, Argentina, Venezuela, Mexico, Taiwan, China, India, Thailand, and South Africa.</dc:description>
+        <dc:title xml:lang="en">Ford Fiesta</dc:title>
+        <dc:type xml:lang="en">Supermini (B)</dc:type>
+        <rdfs:label xml:lang="en">Fiesta</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Ford_Fiesta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPYPnat6NmcCWqAeWCUyaD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPYPnat6NmcCWqAeWCUyaD">
+        <rdfs:label xml:lang="en">Vehicle</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWwwE6kkgypvS1BCzJInf7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWwwE6kkgypvS1BCzJInf7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCOv2j1kiJpHekG0VAYyNEd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Ford Motor Company</dc:creator>
+        <dc:date xml:lang="en">1993</dc:date>
+        <dc:description xml:lang="en">The Ford Mondeo is a large family car manufactured by Ford since 1993. The first Ford declared a &quot;world car&quot;, the Mondeo was intended to consolidate several Ford model lines worldwide (the European Ford Sierra, the Ford Telstar in Asia and Australia, and the Ford Tempo/Mercury Topaz of North America). The Mondeo nameplate is derived from Latin mundus, meaning &quot;world&quot;.</dc:description>
+        <dc:title xml:lang="en">Ford Mondeo</dc:title>
+        <dc:type xml:lang="en">D-Segment</dc:type>
+        <rdfs:label xml:lang="en">Mondeo</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Ford_Mondeo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBwMvVpfcHNzVvp9RbQqmAi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7I2MMtvq2aWAB9QQJ3YlMz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Sedan</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Sedan_(automobile)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpNWkQSi09YVKxo455Ebjs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RpNWkQSi09YVKxo455Ebjs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7TTFnyHYD1BKEJ3D8gKca"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7aHwsixFM7ACjfOV9wdh4b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jufzScxeZxDQgbof7PEQe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9DhstPCQTpvmpiznkHpyqk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCV6GxAy3iJihvBLIa8Uem"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbWbKu85KGsgzQFQRvA4bt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">Opel</dc:creator>
+        <dc:date xml:lang="en">1991</dc:date>
+        <dc:description xml:lang="en">The Opel Astra is a compact car/small family car (C-segment in Europe) engineered and manufactured by the German automaker Opel since 1991, currently at its fifth generation. It was launched in September 1991 (for the 1992 model year) in hatchback form, followed by a coupé (the Astra GTC) in 2004, a station wagon known as the Astra Caravan in 1998 and later as the Astra Sports Tourer, from 2009 onwards, a sedan delivery or a panel van (the Astravan) in 2004, a coupé cabriolet (the Astra Cabrio) in 1998, and a racing car version (the Astra OPC) in 2005.</dc:description>
+        <dc:title xml:lang="en">Opel Astra</dc:title>
+        <dc:type xml:lang="en">C-Segment</dc:type>
+        <dc:type xml:lang="en">Compact Car</dc:type>
+        <rdfs:label xml:lang="en">Astra</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Opel_Astra"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
